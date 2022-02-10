@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body, html {
+    background-image: url(https://d6z7b7h8.stackpathcdn.com/wp-content/uploads/2021/09/balada-salvador.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 175vh 59vw;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.form1 {
+    background-image: linear-gradient(to right, rgba(192, 59, 55, 0.863), rgba(188, 107, 108, 0.733));
+    border-radius: 10px;
+    margin: 0 350px;
+    width: 100vh;
+    height: auto;
+}
+
+.logo {
+    margin: 15px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid rgba(0, 0, 0, 0.548);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+
+
+}
+
+
+.titulo {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+}
+
+.forms {
+    text-align: center;
+}
+
+.enviar1 {
+    padding: 10px;
+    background-color: rgba(192, 59, 55, 0.863);
+    width: 150px;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.enviar1:hover{
+    cursor: pointer;
+    background-color: rgba(182, 15, 15, 0.63);
+}

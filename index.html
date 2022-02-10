@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício Formulário</title>
+</head>
+
+<body>
+    <div class="form1">
+        <img src="img/dlevis.png" alt="D'Levis" class="logo" />
+
+        <h1 class="titulo">Cadastro D'Levis</h1>
+        <div class="forms">
+            <form action="alexsandro.rodrigues.s.1984@gmail.com">
+                <label for="">Nome:</label>
+                <input type="text" name="nome" class="nome" required /><br><br>
+                <label for="">Email:</label>
+                <input type="email" name="" id="email" required /><br><br>
+                <label for="">Senha:</label>
+                <input type="password" name="" id="" required /><br><br>
+                <label for="">Data de Nascimento</label>
+                <input type="date" name="" id="" required /><br><br>
+                <label for="">Foto</label>
+                <input type="file" name="file" id="" /><br><br>
+                <label for="natural">Nacionalidade:</label>
+                <select name="natural" id="">
+                    <option value="br">Brasileiro</option>
+                    <option value="ar">Argentino</option>
+                    <option value="us">Americano</option>
+                    <option value="out">Outros</option>
+                </select><br><br>
+                <label for="genero">Genero:</label>
+                <input type="radio" name="genero" id="masc" value="Masculino" checked />
+                <label for="masc">Masculino</label>
+                <input type="radio" name="genero" id="fem" value="Feminino" />
+                <label for="fem">Feminino</label><br><br>
+                <p>Qual será seu uso na página?</p>
+                <label for="">Fotos</label>
+                <input type="checkbox" name="foto1" id="foto" />
+                <label for="">Eventos</label>
+                <input type="checkbox" name="evento1" id="evento" />
+                <label for="">Contato</label>
+                <input type="checkbox" name="contato1" id="contato"><br><br>
+                <p>Observações.</p><br>
+                <textarea name="observacao" id="obs" cols="20" rows="10"></textarea><br><br>
+                <input type="submit" name="submit" id="enviar" class="enviar1" />
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
